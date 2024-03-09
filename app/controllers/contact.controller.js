@@ -1,4 +1,4 @@
-exports.create = (req, res) => {
+exports.create = (req, res) =>{
 res.send({ message: "create handler" });
 };
 exports.findALL = (req, res) => {

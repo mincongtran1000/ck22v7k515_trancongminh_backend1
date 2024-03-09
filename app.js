@@ -7,6 +7,6 @@ app.use(express.json());
 app.get("/", (req, res) => {
 res.json({ message: "Welcome to contact book application." });
 });
-app.use("/api/contacts/", contactsRouter);
+ app.use("/api/contacts", contactsRouter);
 // eslint-disable-next-line no-undef
 module.exports = app;

@@ -4,8 +4,8 @@
   "description": "server.js",
   "main": "index.js",
   "script": {
- "start": "nodemon server.js"
- },
+    "start": "nodemon server.js"
+  },
   "author": "Cong Minh",
   "license": "ISC",
   "dependencies": {
